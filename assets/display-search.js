@@ -14,9 +14,9 @@ function getParams() {
 }
 
 function searchApi(search) {
-var weatherURL = 'http://api.openweathermap.org/data/2.5/forecast?q=search&limit=5&appid=8769b4d0770daebeae124bc25c6c4a1e'
+var weatherURL = 'https://api.openweathermap.org/data/2.5/forecast?q=search&limit=5&appid=8769b4d0770daebeae124bc25c6c4a1e'
 if (search) {
-    weatherURL = 'http://api.openweathermap.org/data/2.5/forecast?q=' + search + '&limit=5&appid=8769b4d0770daebeae124bc25c6c4a1e'
+    weatherURL = 'https://api.openweathermap.org/data/2.5/forecast?q=' + search + '&limit=5&appid=8769b4d0770daebeae124bc25c6c4a1e'
 }
 fetch(weatherURL)
 .then(function(res){
