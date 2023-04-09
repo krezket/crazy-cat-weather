@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/jass.css">
+    <title>Results | Crazy Cat Weather</title>
+</head>
+<body>
+    <header>
+        <h1 id="header">Weather Dashboard</h1>
+    </header>
+
+    <main id="main">
+        <aside>
+            <div><h4>Search for Cities</h4></div>
+            <form id="search-form">
+                <input id="search-input" class="text-input" type="text">
+                <button>Search</button>
+            </form>
+            <div>
+                <h2>Results For: <span id="result-text"></span></h2>
+                <div id="result-content"></div>
+            </div>
+        </aside>
+
+        <section id="the-weather">
+            <div id="current-forecast"></div>
+            <div id="five-day-fore"></div>
+        </section>
+
+    </main>
+    <script src="./assets/display-search.js"></script>
+</body>
+</html>

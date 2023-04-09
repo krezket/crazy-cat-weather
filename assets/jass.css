@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: center;
+    background: linear-gradient(yellow, lightblue);
+}
+
+#the-weather {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside {
+    border-right: 2px solid black;
+    padding: 0 20px 0 20px;
+}
+
+#search-form {
+    display: flex;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    background: linear-gradient(lightblue,  blue);
+}
+
+#current-forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    width: 100vh;
+    margin-left: 15%;
+    padding: 1%;
+}
+
+#five-day-fore {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.foreCard {
+    display: flex;
+}
+
+.title {
+    border-right: 2px solid black;
+}
+
+.days {
+    border: 2px solid black;
+    padding: 0 10px 0 10px;
+    margin-left: 20px;
+}
