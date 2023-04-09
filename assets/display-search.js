@@ -79,7 +79,7 @@ function showResults(results) {
     let monDate = document.createElement('h3');
     monDate.textContent = results.list[7].dt_txt;
     let mcardContent = document.createElement('p');
-    mcardContent.innerHTML += 'Temp: ' + results.list[0].main.temp + '℉' + '</br>' + '</br>';
+    mcardContent.innerHTML += 'Temp: ' + results.list[7].main.temp + '℉' + '</br>' + '</br>';
     mcardContent.innerHTML += 'Wind: ' + results.list[7].wind.speed + ' MPH' + '</br>' + '</br>';
     mcardContent.innerHTML += 'Humidity: ' + results.list[7].main.humidity + '%';
     monday.append(monDate, mcardContent);
@@ -91,7 +91,7 @@ function showResults(results) {
     let tueDate = document.createElement('h3');
     tueDate.textContent = results.list[15].dt_txt;
     let tcardContent = document.createElement('p');
-    tcardContent.innerHTML += 'Temp: ' + results.list[0].main.temp + '℉' + '</br>' + '</br>';
+    tcardContent.innerHTML += 'Temp: ' + results.list[15].main.temp + '℉' + '</br>' + '</br>';
     tcardContent.innerHTML += 'Wind: ' + results.list[15].wind.speed + ' MPH' + '</br>' + '</br>';
     tcardContent.innerHTML += 'Humidity: ' + results.list[15].main.humidity + '%';
     tuesday.append(tueDate, tcardContent);
@@ -103,7 +103,7 @@ function showResults(results) {
     let wedDate = document.createElement('h3');
     wedDate.textContent = results.list[23].dt_txt;
     let wcardContent = document.createElement('p');
-    wcardContent.innerHTML += 'Temp: ' + results.list[0].main.temp + '℉' + '</br>' + '</br>';
+    wcardContent.innerHTML += 'Temp: ' + results.list[23].main.temp + '℉' + '</br>' + '</br>';
     wcardContent.innerHTML += 'Wind: ' + results.list[23].wind.speed + ' MPH' + '</br>' + '</br>';
     wcardContent.innerHTML += 'Humidity: ' + results.list[23].main.humidity + '%';
     wednesday.append(wedDate, wcardContent);
@@ -115,7 +115,7 @@ function showResults(results) {
     let thuDate = document.createElement('h3');
     thuDate.textContent = results.list[31].dt_txt;
     let thcardContent = document.createElement('p');
-    thcardContent.innerHTML += 'Temp: ' + results.list[0].main.temp + '℉' + '</br>' + '</br>';
+    thcardContent.innerHTML += 'Temp: ' + results.list[31].main.temp + '℉' + '</br>' + '</br>';
     thcardContent.innerHTML += 'Wind: ' + results.list[31].wind.speed + ' MPH' + '</br>' + '</br>';
     thcardContent.innerHTML += 'Humidity: ' + results.list[31].main.humidity + '%';
     thursday.append(thuDate, thcardContent);
@@ -127,7 +127,7 @@ function showResults(results) {
     let friDate = document.createElement('h3');
     friDate.textContent = results.list[39].dt_txt;
     let fcardContent = document.createElement('p');
-    fcardContent.innerHTML += 'Temp: ' + results.list[0].main.temp + '℉' + '</br>' + '</br>';
+    fcardContent.innerHTML += 'Temp: ' + results.list[39].main.temp + '℉' + '</br>' + '</br>';
     fcardContent.innerHTML += 'Wind: ' + results.list[39].wind.speed + ' MPH' + '</br>' + '</br>';
     fcardContent.innerHTML += 'Humidity: ' + results.list[39].main.humidity + '%';
     friday.append(friDate, fcardContent);
