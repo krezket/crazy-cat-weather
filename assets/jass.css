@@ -40,14 +40,14 @@ aside {
     width: 40%;
     background: linear-gradient(blue, white);
     border-radius: 5%;
-    margin-left: 40px;
+    margin-left: 10px;
     padding: 1%;
 }
 
 #five-day-fore {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 20px;
 }
 
