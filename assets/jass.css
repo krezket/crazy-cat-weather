@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    height: 90vh
 }
 
 header {
@@ -10,11 +11,20 @@ header {
     background: linear-gradient(yellow, lightblue);
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    background: linear-gradient(lightblue,  blue);
+}
+
 #the-weather {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
 }
 
 aside {
@@ -27,39 +37,36 @@ aside {
     padding: 5px;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    padding-right: 70px;
-    padding-bottom: 50px;
-    background: linear-gradient(lightblue,  blue);
-}
-
 #current-forecast {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 2px solid black;
-    width: 100vh;
-    margin-left: 15%;
+    width: 40%;
+    background: linear-gradient(lightblue, white);
+    border-radius: 5%;
+    margin-left: 40px;
     padding: 1%;
 }
 
 #five-day-fore {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 20px;
     margin-top: 20px;
 }
 
-.foreCard {
-    display: flex;
+.bruh {
+    width: 100%;
+    padding-right: 10px;
+    margin-left: 20px;
 }
 
 .title {
-    border-right: 2px solid black;
+    margin-top: 0%;
 }
 
 .days {
-    border: 2px solid black;
+    width: 120px;
+    background: linear-gradient(lightblue, white);
+    border-radius: 5%;
     padding: 0 10px 0 10px;
+    margin-top: 2%;
     margin-left: 20px;
 }
