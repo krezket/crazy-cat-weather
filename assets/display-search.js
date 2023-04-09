@@ -40,7 +40,7 @@ function showResults(results) {
 
     for (let i = 0; i < results.list.length; i++) {
         var num = results.list[i].dt_txt;
-        var dateNum = dayjs(num).format("dddd MMM D[, ]YYYY h:mm a");
+        var dateNum = dayjs(num).format("dddd MMM D[, ]YYYY");
         theDate.push(dateNum);
         var iconID = results.list[i].weather[0].icon
         icon.push(iconID);
