@@ -63,10 +63,33 @@ aside {
 }
 
 .days {
-    width: 120px;
+    width: 150px;
     background: linear-gradient(lightblue, white);
     border-radius: 5%;
     padding: 0 10px 0 10px;
     margin-top: 2%;
     margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header, main {
+        flex-direction: column;
+        align-items: center;
+    }
+    aside {
+        border-right: 0px;
+    }
+    #the-weather {
+        display: flex;
+        justify-content: center;
+    }
+    #current-forecast {
+        width: 90%;
+    }
+    #five-day-fore {
+        justify-content: space-evenly;
+    }
+    .days {
+        width: 45%;
+    }
 }
