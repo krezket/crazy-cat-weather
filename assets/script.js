@@ -19,7 +19,7 @@ let space = document.querySelector('#cat')
 button.addEventListener('click', function() {
 
     let bruh = document.createElement('img');
-    bruh.setAttribute('src', 'C:/Users/antho/Bootcamp/crazy-cat-weather/assets/images/cat.jpeg');    
+    bruh.setAttribute('src', './assets/images/cat.jpeg');    
     space.append(bruh);
 })
 
