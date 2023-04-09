@@ -8,15 +8,14 @@ header {
     justify-content: start;
     padding-left: 20px;
     align-items: center;
-    background: linear-gradient(yellow, lightblue);
+    background: linear-gradient(lightblue, blue);
 }
 
 main {
     display: flex;
     flex-direction: row;
-    padding-right: 70px;
     padding-bottom: 20px;
-    background: linear-gradient(lightblue,  blue);
+    background: linear-gradient(blue,  lightblue);
 }
 
 #the-weather {
@@ -39,7 +38,7 @@ aside {
 
 #current-forecast {
     width: 40%;
-    background: linear-gradient(lightblue, white);
+    background: linear-gradient(blue, white);
     border-radius: 5%;
     margin-left: 40px;
     padding: 1%;
@@ -59,12 +58,16 @@ aside {
 }
 
 .title {
+    display: flex;
+    justify-content: center;
     margin-top: 0%;
+    background: linear-gradient(lightblue, white);
+    border-radius: 100%;
 }
 
 .days {
-    width: 150px;
-    background: linear-gradient(lightblue, white);
+    width: 160px;
+    background: linear-gradient(gray, white);
     border-radius: 5%;
     padding: 0 10px 0 10px;
     margin-top: 2%;
